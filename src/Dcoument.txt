@@ -1,0 +1,38 @@
+Signup Table Creation syntax:
+
+
+
+
+SignupTwo Table Creation Syntax:
+
+create table signuptwo(Form_No varchar(20),Religion varchar(20),Category varchar(20),
+	Education varchar(20),Occupation varchar(20),Income varchar(20),
+	Pan_No varchar(20),Aadhar_No varchar(20),Senior_Citizen varchar(20),
+	Existing_acc varchar(20));
+	
+	
+	
+SignupThree Table Creation Syntax:
+
+create table signupthree(Form_No varchar(20),Account_Type varchar(20),
+		Card_No varchar(20),Pin_No varchar(20),Facility varchar(20));
+		
+		
+
+Login Table Creation Syntax:
+
+		create table login(Form_No varchar(10),Card_No varchar(30),
+		Pin_No varchar(10));
+		
+	
+Transaction Table Creation Syntax:
+
+		create table transaction(Pin_No varchar(10),Date varchar(20),
+		Transaction_Type varchar(10),Amount varchar(20));
+		
+		
+
+
+		
+		
+		
